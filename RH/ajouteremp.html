@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styl.css">
+</head>
+<body>
+	<div class="form">
+		<a href="./" class="back_btn"> Retour</a>
+		<h2>Ajouter un Employé</h2>
+		
+		<form action="ajouteremp.php" method="POST">
+			<label>Nom de l'employé</label>
+			<input type="text" name="nom">
+			<label>Son numéro du téléphone</label>
+			<input type="number" name="telephone">
+			<label>Son service</label>
+			<input type="text" name="service">
+			<input type="submit" value="Enregistrer" name="button">
+		</form>
+	</div>
+</body>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styl.css">
+</head>
+<body>
+	<div class="form">
+		<a href="./" class="back_btn"> Retour</a>
+		<h2>Ajouter les informations d'un Stagiaire</h2>
+		
+		<form action="ajouter.php" method="POST">
+			<label>Nom</label>
+			<input type="text" name="nom">
+			<label>telephone</label>
+			<input type="number" name="telephone">
+			<label>Service</label>
+			<input type="text" name="service">
+			<label>Date début</label>
+			<input type="date" name="dated">
+			<label>Date fin</label>
+			<input type="date" name="datef">
+			<label>Catégorie</label>
+			<input type="text" name="categorie">
+			<input type="submit" value="Enregistrer" name="button">
+		</form>
+	</div>
+</body>

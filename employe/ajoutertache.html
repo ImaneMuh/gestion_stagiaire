@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styl.css">
+</head>
+<body>
+	<div class="form">
+		<a href="./" class="back_btn"> Retour</a>
+		<h2>Ajouter une tache</h2>
+		
+		<form action="ajoutertache.php" method="POST">
+			<label>Description du tache :</label>
+			<input type="text" name="desc">
+			<label>date confie:</label>
+			<input type="date" name="datec">
+			<label>date voulu:</label>
+			<input type="date" name="datev">
+			<label>le stagiaire confie:</label>
+			<input type="text" name="stage">
+			<label>L'encadreur:</label>
+			<input type="text" name="encadre">
+			<label>Département du stage:</label>
+			<input type="text" name="dept">
+			<input type="submit" value="Enregistrer" name="button">
+		</form>
+	</div>
+</body>

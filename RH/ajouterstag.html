@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styl.css">
+</head>
+<body>
+	<div class="form">
+		<a href="../Home/index3.php" class="back_btn"> Retour</a>
+		<h2>Ajouter les informations du stage</h2>
+		
+		<form action="ajouterstag.php" method="POST">
+			<label>Duree du stage</label>
+			<input type="text" name="dure">
+			<label>Département</label>
+			<input type="text" name="dept">
+			<label>Type du stage</label>
+			<input type="text" name="type">
+			<label>L'encadreur du stage</label>
+			<input type="number" name="encadre">
+			<input type="submit" value="Enregistrer" name="button">
+		</form>
+	</div>
+</body>
